@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/components/config.js"],"names":[],"mappings":";;;;;;;;;;;;;;;;yCAAa,uB,GACX,mCAAc;AAAA;AAAG,O","file":"config.js","sourcesContent":["export class Icinga2apiAppConfigCtrl {\r\n  constructor() { }\r\n}\r\n"]}

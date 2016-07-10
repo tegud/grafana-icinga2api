@@ -1,0 +1,40 @@
+{
+  "type": "app",
+  "name": "Icinga2 API",
+  "id": "tegud-icinga2api-app",
+
+  "info": {
+    "description": "Icinga2 API Integration for Grafana to show Host & Service states",
+    "author": {
+      "name": "Steve Elliott",
+      "url": "http://www.tegud.net"
+    },
+    "keywords": ["icinga2", "alerting"],
+    "logos": {
+      "small": "src/img/icinga2-logo.jpg",
+      "large": "src/img/icinga2-logo.jpg"
+    },
+    "links": [
+      {"name": "Project site", "url": "https://github.com/tegud/grafana-icinga2api"},
+      {"name": "MIT License", "url": "https://github.com/tegud/grafana-icinga2api/blob/master/LICENSE"}
+    ],
+    "version": "0.1.0",
+    "updated": "2015-07-10"
+  },
+
+  "includes": [
+   {
+     "type": "datasource",
+     "name": "Icinga2 API"
+   },
+   {
+     "type": "panel",
+     "name": "Icinga 2 Entity State"
+   }
+  ],
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}

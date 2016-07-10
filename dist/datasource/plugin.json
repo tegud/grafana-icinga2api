@@ -1,0 +1,16 @@
+{
+  "name": "Icinga2 API",
+  "id": "icinga2api-datasource",
+  "type": "datasource",
+
+  "metrics": true,
+  "annotations": false,
+
+  "info": {
+    "description": "Icinga 2 API datasource",
+    "author": {
+      "name": "Steve Elliott",
+      "url": "http://www.tegud.net"
+    }
+  }
+}

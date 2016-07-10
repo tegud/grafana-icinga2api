@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/module.js"],"names":[],"mappings":";;;;;;;;AAAQ,mC,qBAAA,uB;;;kCAGJ,uB","file":"module.js","sourcesContent":["import {Icinga2apiAppConfigCtrl} from './components/config';\r\n\r\nexport {\r\n    Icinga2apiAppConfigCtrl as ConfigCtrl\r\n};\r\n"]}
